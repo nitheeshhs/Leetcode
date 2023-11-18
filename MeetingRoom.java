@@ -11,7 +11,7 @@ public class MeetingRoom {
 
         iterate through the sorted slots, compare if i.endTime and i+1.startTime overlaps.
     */
-    static class Interval implements Comparable<Interval>{
+    static class Interval {
         int start;
         int end;
 
@@ -19,11 +19,7 @@ public class MeetingRoom {
             this.start = start;
             this.end = end;
         }
-        
-        @Override
-        public int compareTo(Interval o) {
-            return toString().compareTo(o.toString());
-        }
+
     }
 
     /*
