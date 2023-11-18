@@ -14,6 +14,10 @@
 
 
 public class NSteps {
+    /*
+        @param n : total steps to be covered
+        @return ptr : which will have the total possible ways in which the steps can be covered.
+    */
     public static  int calcPossibilities(int n){
         int ptr1 = 1;
         int ptr2 = 1;
