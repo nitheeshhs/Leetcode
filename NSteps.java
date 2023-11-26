@@ -27,6 +27,8 @@ public class NSteps {
             temp = ptr1;
             ptr1 = ptr1 + ptr2;
             ptr2 = temp;
+            sddkkd
+
         }
 
         return ptr1;
